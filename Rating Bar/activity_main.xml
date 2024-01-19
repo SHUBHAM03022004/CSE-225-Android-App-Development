@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleRatingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="1dp"
+        android:numStars="5"
+        android:rating="0"
+        android:secondaryProgressTint="#063333"
+        android:progressTint="#063353"
+        android:progressBackgroundTint="#F4E0E4"
+        android:stepSize="0.5" />
+
+    <Button
+        android:layout_width="316dp"
+        android:layout_height="69dp"
+        android:id="@+id/submitButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:padding="10dp"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleRating"
+        android:progressBackgroundTint="#C1C0E6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="323dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="1dp"
+        android:numStars="5"
+        android:rating="0"
+        android:secondaryProgressTint="#04085E"
+        android:progressTint="#04085E"
+        android:stepSize="0.5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Rating Bar"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"/>
+
+</RelativeLayout>
